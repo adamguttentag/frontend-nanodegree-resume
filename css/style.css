@@ -58,54 +58,51 @@ svg {
     padding: 4px 12px;
     font: 100 7pt menlo, courier;
     color: #545A61;
-    flex-basis: 400px;
     box-shadow: inset 1px 1px 3px 0px rgba(0,0,0,0.75);
-    flex: none;
-    display: flex;
     display: -webkit-box;
-    flex-direction: column;
     -webkit-box-orient: vertical;
-    justify-content: flex-end;
     -webkit-box-pack: end;
     align-items: center;
+    flex-basis: 400px;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .wrappedCol1Container {
-    display: flex;
     display: -webkit-box;
-    flex-direction: column;
-    flex-direction: -webkit-column;
     -webkit-box-orient: vertical;
-    justify-content: space-between;
     -webkit-box-pack: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex: 0 0 400px;
 }
 
 .wrappedCol1 {
-    display: flex;
     display: -webkit-box;
-    flex-direction: row;
     -webkit-box-orient: horizontal;
+    -webkit-box-align: center;
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 .jobWrapped {
-    display: flex;
     display: -webkit-box;
-    flex-direction: column;
-    flex-direction: -webkit-column;
     -webkit-box-orient: vertical;
-    justify-content: space-around;
     -webkit-box-pack: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .jobWrappedH, .projectWrappedH, .schoolWrappedH {
-    display: flex;
     display: -webkit-box;
-    flex-direction: row;
-    -webkit-box-orient: horizontal;
-    justify-content: space-between;
+    webkit-box-orient: horizontal;
     -webkit-box-pack: justify;
+    -webkit-box-align: center;
     padding: 0 10px;
     border-top: solid 1px #333;
     border-left: solid 1px #333;
@@ -114,16 +111,18 @@ svg {
     border-radius: 15px;
     background-color: #3d3d3d;
     margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .wrappedV {
-    display: flex;
     display: -webkit-box;
-    flex-direction: column;
-    flex-direction: -webkit-column;
     -webkit-box-orient: vertical;
-    justify-content: space-between;
     -webkit-box-pack: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .vDivider {
