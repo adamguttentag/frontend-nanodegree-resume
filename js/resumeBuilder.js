@@ -147,6 +147,12 @@ var education = {
 					"school": "Udacity",
 					"dates": "Oct 2015",
 					"url": "https://www.udacity.com/course/intro-to-jquery--ud245"
+				},
+				{
+					"title": "Object-Oriented JavaScript",
+					"school": "Udacity",
+					"dates": "Oct 2015",
+					"url": "https://www.udacity.com/course/object-oriented-javascript--ud015"
 				}
 			]
 		}
