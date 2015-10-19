@@ -153,6 +153,12 @@ var education = {
 					"school": "Udacity",
 					"dates": "Oct 2015",
 					"url": "https://www.udacity.com/course/object-oriented-javascript--ud015"
+				},
+				{
+					"title": "HTML5 Canvas",
+					"school": "Udacity",
+					"dates": "Oct 2015",
+					"url": "https://www.udacity.com/course/html5-canvas--ud292"
 				}
 			]
 		}
